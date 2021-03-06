@@ -3,6 +3,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Aachal Shah">
      <title>Reset Password</title>
 
      <!-- Custom CSS -->
@@ -13,6 +14,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
      <!-- Navbar -->
      <header>
@@ -31,15 +33,13 @@
      <!-- Reset Pass -->
      <div class="main-wrapper">
        <div class="form-wrapper">
-          <form onsubmit="return myfunc()">
+          <form onsubmit="myfunc()">
                <h1 class="title">Forget Password?</h1>
                <label>Create Password:</label>
                <input type="password" placeholder="Create Password.." id="Pass1" value=""><br>
-               <span style="color: red;" id="msg1"></span>
 
                <label>Confirm Password:</label>
                <input type="password" placeholder="Confirm Password.." id="Pass2" value=""><br>
-               <span style="color: red;" id="msg2"></span>
 
                <button class="btn" type="submit">Reset Password</button>
           </form>
